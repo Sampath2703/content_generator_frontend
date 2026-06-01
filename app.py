@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-backend_url = st.secrets("")
+backend_url = st.secrets["backend_url"]
 
 st.set_page_config(
     page_title = "AI Content Generator",
