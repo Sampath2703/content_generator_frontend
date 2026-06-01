@@ -59,6 +59,6 @@ if Generate:
             if response.status_code == 200:
                 st.subheader("Generated Content Below")
 
-                st.write("Response Text:", response.json()["content"])
+                st.write(response.json()["content"])
 
                 st.success("Content Generated Successfully")
